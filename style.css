@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika', sans-serif;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+      background-color: black;
+       
+}
+li{
+    list-style: none;
+    color: aliceblue;
+
+padding: 10px;
+}
+li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.list img{
+     
+    height: 40px;
+ border-radius: 25px;
+padding-bottom: 0px;
+ 
+}
+.list .img{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+
+}
+.list .img span{
+    font-weight: 600;
+    color: aliceblue;
+    margin-left:5px 
+     
+}
+.cointaner{
+    min-height: 75vh;
+}
+.bottom{
+    color: white;
+    padding: 0px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position:sticky;
+    justify-content: center;
+    bottom: 0;
+     display: flex;
+     flex-direction: column;
+    
+}
+.bottom input{ 
+    padding-top: 20px;
+width: 70%;
+  margin: auto;
+}
+i{
+
+    color: aliceblue;
+    padding: 3px;
+}
+.icons{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.cointaner h1{
+    color: aliceblue;
+}
+.cointaner{
+    color: rgb(0, 0, 0);
+    background-image: url("backgrouund.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 150px;
+    padding: 30px;
+     border-radius: 20px;
+     display: flex;
+      
+     flex-direction: column;
+}
+ 
+.cointaner i{
+    color: black;
+}
+.songitem{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    width: 40%;
+    background-color: antiquewhite;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.songitem img{
+    height: 60px;
+    border-radius:30px ;
+}
+.songinfo{
+    position:  absolute;
+right:1150px;
+}
+.fa-circle-play::before {
+    content: "\f144"; /* Font Awesome play icon */
+}
+
+.fa-circle-stop::before {
+    content: "\f28d"; /* Font Awesome stop icon */
+}
